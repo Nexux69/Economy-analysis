@@ -4,7 +4,7 @@ A professional, beginner-friendly Power BI dashboard that analyzes key global ec
 
 Repository: https://github.com/Nexux69/Economy-analysis/tree/main
 
-![Dashboard Screenshot](./Dashboard.png)
+![Dashboard Screenshot](./Dashboard eco.png)
 
 ---
 
