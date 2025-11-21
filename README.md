@@ -2,8 +2,8 @@
 
 # Power BI Dashboard
 
-Dashboard screenshot
-![Dashboard screenshot](https://github.com/user-attachments/assets/e882d756-acad-4250-8256-4b0f108b42b5)
+![Dashboard screenshot](<img width="492" height="272" alt="image" src="https://github.com/user-attachments/assets/1c081bd9-090e-4c37-9405-79780bd504dc" />
+)
 A concise record of what I did in this project.
 
 What I did
