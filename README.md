@@ -1,74 +1,82 @@
-```markdown
 # Economy-analysis
----
 
-## What this project is
-A small exploration of the "Cost of Living Index 2022" dataset. The main work happens in:
-- `analysis.ipynb` — a Jupyter notebook (created/run in Google Colab) that reads the CSV, inspects the data, and creates plots and summaries to help understand differences between countries.
+A small, friendly exploration of the "Cost of Living Index 2022" dataset. This repository contains a Jupyter notebook that inspects the data, performs basic cleaning, creates visualizations, and surfaces initial observations and ideas for further analysis.
 
----
+Table of contents
+- What’s in this repo
+- Quick start
+  - Run in Google Colab
+  - Run locally
+- Requirements
+- Dataset
+- What the notebook does
+- Ideas for next steps
+- Contributing
+- License & credits
+- Contact
 
-## Why this exists (in plain words)
-I like looking at how expensive or cheap different places are. This notebook is a friendly, exploratory walk through the data — nothing too formal, just visualizations and observations you can build on. If you’re learning data analysis or want a quick glance at global cost-of-living differences, hop in.
+What’s in this repo
+- analysis.ipynb — the main Jupyter notebook with the exploratory analysis.
+- Cost_of_Living_Index_2022.csv — (expected) dataset used by the notebook. Add this file to the repo or upload it to your Colab session.
+- README.md — this document.
 
----
+Quick start
 
-## How to use it
+Run in Google Colab (recommended for quick start)
+1. Open analysis.ipynb in Google Colab.
+2. Upload `Cost_of_Living_Index_2022.csv` when prompted (Colab file upload) or mount your Google Drive and place the CSV there.
+3. Run the notebook cells sequentially.
 
-Quick options:
-1. Open `analysis.ipynb` in Google Colab  
-   - Colab is where this was originally used. Upload the CSV when prompted (or add it to the Colab session) and run the cells.
+Run locally
+1. Clone the repository:
+   git clone https://github.com/Nexux69/Economy-analysis.git
+2. Create and activate a virtual environment (recommended):
+   python3 -m venv .venv
+   source .venv/bin/activate  # macOS/Linux
+   .venv\Scripts\activate     # Windows (PowerShell)
+3. Install dependencies:
+   pip install -r requirements.txt
+   If you don't have a requirements file, install:
+   pip install pandas numpy matplotlib seaborn jupyterlab
+4. Ensure `Cost_of_Living_Index_2022.csv` is in the repo root (or update the path in the notebook).
+5. Run Jupyter and open the notebook:
+   jupyter notebook analysis.ipynb
 
-2. Run locally
-   - Install Python 3.8+ and create a virtual environment (recommended).
-   - Install dependencies:
-     ```bash
-     pip install pandas numpy matplotlib seaborn jupyterlab
-     ```
-   - Start Jupyter:
-     ```bash
-     jupyter notebook analysis.ipynb
-     ```
-   - Make sure `Cost_of_Living_Index_2022.csv` is in the same folder, or update the path in the notebook.
-
----
-
-## Requirements
+Requirements
 - Python 3.8+
 - pandas
 - numpy
 - matplotlib
 - seaborn
-- (Optional) Google Colab — if you prefer cloud execution and quick file upload
+- (Optional) Google Colab — for cloud execution and easy file uploads
 
----
+Dataset
+The notebook uses a "Cost of Living Index 2022" CSV. If you plan to republish analysis or visuals, please cite the original data source. Replace or update the CSV file with the canonical dataset you obtained and add attribution where appropriate.
 
-## What you’ll find in the notebook
-- Data loading & quick previews (head, tail, columns, shape)
-- Basic cleaning/checks and data types
-- Visualizations: distributions, comparisons between indices, possible correlations
-- A few summary insights and suggestions for deeper analysis
+What the notebook does
+- Loads the CSV and previews the data (head, tail, columns, shape)
+- Basic cleaning and type checks (missing values, dtypes)
+- Visualizations: distributions, pairwise comparisons, and possible correlations between indices
+- Short summary observations and suggestions for deeper analysis
 
----
-
-## Quick ideas for next steps / improvements
-- Normalize indices to a single scale for easier comparisons across countries.
+Ideas for next steps / improvements
+- Normalize indices to a single scale for easier cross-country comparison.
 - Add regional grouping (continent) to compare regions rather than individual countries.
-- Merge with GDP / population / median income data to study affordability vs. purchasing power.
-- Build an interactive dashboard (Streamlit / Dash) to filter countries and indices live.
+- Merge with GDP / population / median income datasets to analyze affordability vs purchasing power.
+- Build an interactive dashboard (Streamlit / Dash) for live filtering and exploration.
+- Add tests and CI for reproducible results.
 
----
+Contributing
+Contributions are welcome. If you want to add better plots, notebook commentary, or merge other datasets:
+- Open an issue to discuss big changes.
+- Send a pull request with a clear description of what you changed.
+- If you forked the repo and built something cool, please open a PR or create an issue so we can link to it.
 
-## Contributing
-If you want to add better plots, notebook commentary, or merge other datasets — open a PR or create an issue. Pull requests are welcome. If you forked the repo and made something cool, ping me via GitHub.
+License & credits
+- The code in this repo is provided as-is. If you want a specific license (e.g., MIT), add a LICENSE file to the repository.
+- Credit the original dataset source when republishing or sharing derived visuals.
 
----
+Contact
+If anything in the notebook is unclear or you want help extending it, reach out on GitHub: @Nexux69.
 
-## Credits & Notes
-- The CSV used is a cost-of-living dataset (2022). If you plan to republish analysis or visuals, cite the original data source.
-- Notebook originally run in Google Colab — some cells might reference Colab-specific helpers.
-
----
-
-Thanks for checking out this little exploration — if anything in the notebook is unclear or you want help extending it, drop a message on GitHub: @Nexux69. Let's make data less boring together. 🚀
-```
+Thanks for checking out this small exploration — let’s make data less boring together. 🚀
