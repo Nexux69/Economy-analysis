@@ -1,7 +1,8 @@
 # Economy-analysis
 
 # Power BI Dashboard
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](<img width="504" height="289" alt="image" src="https://github.com/user-attachments/assets/e882d756-acad-4250-8256-4b0f108b42b5" />
+)
 
 A concise record of what I did in this project.
 
