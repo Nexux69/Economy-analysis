@@ -13,7 +13,7 @@ Dataset used in the notebook:
 
 Below is your dashboard screenshot. To show this in the repo, save the image to `images/dashboard.png` (create the `images/` folder if needed). The README references that path so the image will render on GitHub.
 
-![Dashboard screenshot](images/dashboard.png)
+<img src="https://raw.githubusercontent.com/OWNER/REPO/BRANCH/path/to/image.png" alt="Cost-of-living dashboard" width="800" />
 
 Figure: Dashboard view (screenshot provided).
 
