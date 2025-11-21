@@ -14,7 +14,7 @@ Below is a screenshot of the dashboard/visualizations from the notebook:
 ![Analysis Dashboard](images/analysis_dashboard.png)
 
 If the above image does not render on GitHub, you can also reference the raw file directly:
-![Analysis Dashboard (raw link)](https://raw.githubusercontent.com/Nexux69/Economy-analysis/main/images/analysis_dashboard.png)
+![Analysis Dashboard (raw link)](https://raw.githubusercontent.com/Nexux69/Economy-analysis/dashboard.png)
 
 ## How to run
 1. Open `analysis.ipynb` in Jupyter Notebook or Google Colab.
